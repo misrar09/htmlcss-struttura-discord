@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+   
+    height: 500px;
+    background-color: lightblue;
+}
+
+.sub-header1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 13%;
+
+}
+
+
+.flex-container-section1{
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    width: 50%;
+    background-color: orange;
+    margin: 0 auto;
+    
+}
+
+.link{
+    width: 60%;
+}
+
+.logo, .login{
+    width: 20%;
+}
+
+p{
+    font-size: 15px;
+    padding: 5px;
+    width: 100%;
+    border-style: dashed
+}
+
+
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 430px;
+
+    background-color: navy;
+}
+
+.pink{
+    width: 40%;
+    height: 80%;
+    margin: 0 auto;
+    background-color: rgb(236, 103, 236);
+    border-style: dashed
+}

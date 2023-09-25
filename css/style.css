@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -7,8 +7,8 @@
 
 /* Header style */
 
-header{
-   
+header {
+
     height: 500px;
     background-color: lightblue;
 }
@@ -22,33 +22,32 @@ header{
 }
 
 
-.flex-container-section1{
+.flex-container-section1 {
     display: flex;
     justify-content: space-between;
     height: 50%;
-    width: 50%;
+    width: 60%;
     background-color: orange;
-    margin: 0 auto;
-    
+
 }
 
-.link{
+.link {
     width: 60%;
 }
 
-.logo, .login{
+.logo,
+.login {
     width: 20%;
 }
 
-p{
+header p {
     font-size: 15px;
     padding: 5px;
-    width: 100%;
     border-style: dashed
 }
 
 
-.section2{
+.section2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,26 +55,25 @@ p{
     background-color: navy;
 }
 
-.pink{
-    width: 40%;
+.pink {
+    width: 45%;
     height: 80%;
-    margin: 0 auto;
     background-color: rgb(236, 103, 236);
     border-style: dashed
 }
 
+/* --------------------------------------------- */
 /* main style */
 
-.main-section1{
+.main-section1 {
     display: flex;
     justify-content: center;
     height: 500px;
-    margin: 0 auto;
     align-items: center;
 
 }
 
-.blue-sec1{
+.blue-sec1 {
 
     background-color: rgb(63, 121, 238);
     width: 40%;
@@ -83,24 +81,23 @@ p{
     border-style: dashed
 }
 
-.lightpink-sec1{
+.lightpink-sec1 {
     background-color: lightpink;
     width: 20%;
     height: 85%;
     border-style: dashed
- }
+}
 
- .main-section2{
+.main-section2 {
     display: flex;
     justify-content: center;
     height: 500px;
-    margin: 0 auto;
     align-items: center;
     background-color: rgb(187, 182, 182);
 
 }
 
-.blue-sec2{
+.blue-sec2 {
 
     background-color: rgb(63, 121, 238);
     width: 20%;
@@ -108,24 +105,22 @@ p{
     border-style: dashed
 }
 
-.lightpink-sec2{
+.lightpink-sec2 {
     background-color: lightpink;
     width: 40%;
     height: 85%;
     border-style: dashed
-
 }
 
-.main-section3{
+.main-section3 {
     display: flex;
     justify-content: center;
     height: 500px;
-    margin: 0 auto;
     align-items: center;
 
 }
 
-.blue-sec3{
+.blue-sec3 {
 
     background-color: rgb(63, 121, 238);
     width: 40%;
@@ -133,7 +128,7 @@ p{
     border-style: dashed
 }
 
-.lightpink-sec3{
+.lightpink-sec3 {
     background-color: lightpink;
     width: 20%;
     height: 85%;
@@ -141,20 +136,80 @@ p{
 }
 
 
-.main-section4{
+.main-section4 {
     display: flex;
     justify-content: center;
     height: 800px;
-    margin: 0 auto;
     align-items: center;
     background-color: rgb(187, 182, 182);
 
 }
 
-.green-sec4{
+.green-sec4 {
     background-color: green;
     width: 60%;
     height: 90%;
     border-style: dashed
 }
 
+/* ---------------------------------------------- */
+/* Footer Style */
+.footer-section1 {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    align-items: flex-start;
+    background-color: rgb(35, 34, 34);
+
+}
+
+.redpink-sec1 {
+    background-color: rgb(248, 129, 149);
+    width: 15%;
+    height: 90%;
+    border-style: dashed;
+    margin-top: 15px;
+
+}
+
+.teal-sec1 {
+
+    background-color: teal;
+    width: 11.25%;
+    height: 90%;
+    border-style: dashed;
+    border-color: white;
+    margin-top: 15px;
+}
+
+hr {
+    border-color: rgb(187, 182, 182);
+}
+
+.footer-section2 {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: flex-end;
+    background-color: rgb(35, 34, 34);
+}
+
+.footer-subsection2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(21, 229, 181);
+    width: 60%;
+}
+
+.footer-logo,
+.footer-button {
+    background-color: rgb(243, 157, 171);
+}
+
+footer p {
+    font-size: 15px;
+    padding: 2px 8px 2px 8px;
+    border-style: dashed
+}

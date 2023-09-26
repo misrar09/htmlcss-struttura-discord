@@ -24,7 +24,7 @@ header {
 
 .flex-container-section1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     height: 50%;
     width: 60%;
     background-color: orange;
@@ -33,6 +33,7 @@ header {
 
 .link {
     width: 60%;
+    text-align: center;
 }
 
 .logo,
@@ -40,10 +41,15 @@ header {
     width: 20%;
 }
 
+.login {
+    text-align: right;
+}
+
 header p {
     font-size: 15px;
     padding: 5px;
     border-style: dashed
+    
 }
 
 
